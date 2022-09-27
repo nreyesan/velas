@@ -1,4 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Indie+Flower&display=swap');
+
 body {
     background-image: url(/assets/fondo_pagina.jpg);
     background-size: cover;
+    
+}
+
+body #titulo {
+    color: rgb(219, 106, 0);
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    text-align: center;
+}
+
+body #subtitulo {
+    font-family: 'Dancing Script', cursive;
+    color: orange;
+    font-size: 45px;
+    text-align: center;
+}
+
+.container{
+    width: 100%;
+    max-width: 1200px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container .card {
+    width: 330px;
+    height: 430px;
+    border-radius: 8px;
+    overflow: hidden;
+    margin: 20px;
+    text-align: center;
+}
+
+.container.card img {
+    width: 330px;
+    height: 200px;
+}
+
+.container .card h4 {
+    color: rgb(219, 106, 0);
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.container .card p {
+    color: rgb(219, 106, 0);
+    font-family: 'Indie Flower', cursive;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+#footer {
+   color: rgb(219, 106, 0); 
 }
