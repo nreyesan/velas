@@ -3,6 +3,7 @@
 body {
     background-image: url(https://i.im.ge/2022/09/28/1A59mY.fondo-pagina.jpg);
     background-size: cover;
+    margin: 0px;
     
 }
 
@@ -11,6 +12,9 @@ body #titulo {
     font-family: 'Dancing Script', cursive;
     font-size: 80px;
     text-align: center;
+    padding: 10px;
+    background: linear-gradient(0, rgba(143, 1, 1, 0.637), rgb(196, 127, 0));
+    margin: 0;
 }
 
 body #subtitulo {
