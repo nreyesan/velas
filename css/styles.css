@@ -3,6 +3,7 @@
 body {
     background-image: url(https://i.im.ge/2022/09/28/1A59mY.fondo-pagina.jpg);
     background-size: cover;
+    background-attachment: fixed;
     margin: 0px;
     
 }
@@ -82,6 +83,7 @@ body #subtitulo {
     body {
         background-image: url(https://i.im.ge/2022/09/29/1Exl5q.fondo-pagina-movil.jpg);
         background-size: cover;
+        background-attachment: fixed;
         margin: 0px;
     }
 }
