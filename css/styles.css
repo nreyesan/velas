@@ -7,10 +7,10 @@ body {
     
 }
 
-body #titulo {
+body #header {
     color: rgb(219, 106, 0);
     font-family: 'Dancing Script', cursive;
-    font-size: 80px;
+    font-size: 70px;
     text-align: center;
     padding: 10px;
     background: linear-gradient(0, rgba(143, 1, 1, 0.637), rgb(196, 127, 0));
@@ -32,6 +32,8 @@ body #subtitulo {
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
+    margin-top: 30px;
+    gap: 15px;
 }
 
 .container .card {
@@ -65,4 +67,9 @@ body #subtitulo {
 
 #footer {
    color: rgb(219, 106, 0); 
+}
+
+.container .card:hover {
+    transform: scale(1.2);
+    background-color: grey;
 }
