@@ -14,7 +14,7 @@ body #header {
     font-size: 60px;
     text-align: center;
     padding: 10px;
-    background: linear-gradient(0, rgba(143, 1, 1, 0.637), rgb(196, 127, 0));
+    background-image: linear-gradient(0deg, transparent, rgba(143, 1, 1, 0.945));
     margin: 0;
 }
 
