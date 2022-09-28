@@ -78,3 +78,10 @@ body #subtitulo {
     background-color: grey;
 }
 
+@media (max-width: 300px) {
+    body {
+        background-image: url(https://w.wallhaven.cc/full/57/wallhaven-57dvl7.jpg);
+        background-size: cover;
+        margin: 0px;
+    }
+}
