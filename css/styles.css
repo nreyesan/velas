@@ -39,7 +39,7 @@ body #subtitulo {
 
 .container .card {
     width: 330px;
-    height: 430px;
+    height: 500px;
     border-radius: 8px;
     overflow: hidden;
     margin: 20px;
@@ -63,7 +63,7 @@ body #subtitulo {
 .container .card p {
     color: rgb(219, 106, 0);
     font-family: 'Indie Flower', cursive;
-    font-size: 25px;
+    font-size: 17px;
     font-weight: 500;
 }
 
