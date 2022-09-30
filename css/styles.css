@@ -48,7 +48,7 @@ body #subtitulo {
     background-image: linear-gradient(0deg, transparent, darkred);
 }
 
-.container.card img {
+.container .card img {
     width: 330px;
     height: 200px;
 }
