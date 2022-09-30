@@ -54,15 +54,15 @@ body #subtitulo {
 }
 
 .container .card h4 {
-    color: rgb(219, 106, 0);
+    color: orange;
     font-family: 'Indie Flower', cursive;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: bold;
     margin: 10px;
 }
 
 .container .card p {
-    color: rgb(219, 106, 0);
+    color: lightyellow;
     font-family: 'Indie Flower', cursive;
     font-size: 17px;
     font-weight: 500;
@@ -76,7 +76,6 @@ body #subtitulo {
 }
 
 .container .card:hover {
-    transform: scale(1.2);
     background-color: grey;
 }
 
